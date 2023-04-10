@@ -1,0 +1,50 @@
+#alinhamento{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+#endereco{
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    padding-left: 5rem;   
+}
+
+
+.responsive-toolbar ion-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  @media (max-width: 767px) {
+    .responsive-toolbar ion-buttons {
+      flex-direction: column;
+      align-items: center;
+    }
+    .responsive-toolbar ion-button {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+
+  .card-section {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .card-section img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  .card-section ion-card-content {
+    padding-top: 100px;
+  }
+  
